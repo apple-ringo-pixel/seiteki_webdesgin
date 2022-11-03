@@ -2,18 +2,18 @@
   display: flex;
   justify-content: space-between;
   height: 70px;
-  
 }
+
 .estra {
   width: 200px;
 }
+
 .nav-list {
   display: flex;
   font-weight: bold;
   margin-right: 30px;
   margin-top: 20px;
 }
-
 
 .nav-item:not(:last-child) {
   margin-right: 30px;
@@ -27,13 +27,12 @@ a {
 .relative {
   position: relative;
 }
+
 .relative__img {
   margin: 0 0 0 auto;
   display: block;
   width: 60%;
   height: 100%;
-
-
 }
 
 .absolute {
@@ -52,10 +51,11 @@ a {
   left: 20%;
   font-size: 20px;
 }
+
 span {
   color: aqua;
-
 }
+
 .imgtxt {
   margin-top: 20px;
   height: 20px;
@@ -73,7 +73,6 @@ h2 {
   font-size: 30px;
   margin: 10px;
 }
-
 
 
 /* ニュース記事 */
@@ -101,7 +100,6 @@ h2 {
 .news-item {
   padding: 25px 0;
   border-bottom: 1px solid #E6E6E6;
-  
 }
 
 .news-item:first-child {
@@ -124,9 +122,9 @@ h2 {
 .oshirase {
   background: #ec4eaa;
   border-radius: 30px;
-  height: 1.2em;
+  height: 2em;
   width: 6em;
-
+  padding-top: 10px;
   font-size: 15px;
   color: #E6E6E6;
   /* 親要素の文字サイズを基準 */
@@ -137,6 +135,8 @@ h2 {
 .detail {
   font-size: 15px;
   margin-left: 15px;
+  margin-top: 10px;
+  
 }
 
 /* About */
@@ -379,8 +379,8 @@ table th {
 
 .contact_btn {
   width: 200px;
-  height: 30px;
-  padding: 10px;
+  height: 40px;
+  padding-top: 20px;
   color: #fff;
   border-radius: 30px;
   background: linear-gradient(90deg, #d81a89, #8b00be);
@@ -389,6 +389,7 @@ table th {
   margin: 50px auto;
   display: block;
 }
+
 
 .line-vertical {
   margin-left: 50%;
