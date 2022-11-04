@@ -79,17 +79,22 @@ h2 {
 
 .ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  text-align: center;
 }
 
 
 
 .ttl1 {
-  width: 80%;
-  background-color: #fff;
-  margin: 0 auto;
-  padding: 70px 0 100px;
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.newslist {
+  padding: 0 10%;
+  width: 60%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 60px 100px;
 }
 
 .list {
@@ -98,7 +103,7 @@ h2 {
 }
 
 .news-item {
-  padding: 25px 0;
+  padding: 20px 0;
   border-bottom: 1px solid #E6E6E6;
 }
 
@@ -110,6 +115,7 @@ h2 {
   position: relative;
   display: flex;
   padding-right: 20px;
+  color: #555353;
 }
 
 .news-date {
@@ -147,7 +153,7 @@ h2 {
 
 .ttl2 {
   text-align: center;
-  padding: 15px;
+  padding-top: 20px;
 }
 
 .about_content {
@@ -161,15 +167,20 @@ h2 {
 
 .about_img {
   width: 40%;
+  margin-right: 10%;
 }
 .neon {
   width: 80%;
 }
 .ab_txt{
   width: 60%;
+  margin-left: 15%;
   line-height: 1.5;
   color: dimgray;
 }
+
+
+
 .ttl3 {
   margin-left: 15%;
 }
@@ -182,6 +193,7 @@ text-align: center;
 }
 .ttl3{
   text-align: left;
+  margin-top: 5%;
 }
 
 .grid__parent {
@@ -204,6 +216,8 @@ text-align: center;
 }
 .b1txtbox{
   margin: auto;
+  color: white;
+  line-height: 1.5;
 }
 
 .box2 {
@@ -217,7 +231,10 @@ text-align: center;
   margin-left: 5%;
 }
 .b2txtbox {
-  margin: auto;
+  text-align: left;
+  margin: 5%;
+  color: white;
+  line-height: 1.5;
 }
 .box3 {
   display: flex;
@@ -230,7 +247,10 @@ text-align: center;
   margin-left: 5%;
 }
 .b3txtbox{
-  margin: auto;
+  text-align: left;
+  margin: 5%;
+  color: white;
+  line-height: 1.5;
 }
 h5{
   font-size: 15px;
@@ -279,7 +299,8 @@ h5{
   border-radius: 0 0 30px 30px;
 }
 .card-ttl {
-  text-align: center;
+  text-align: left;
+  line-height: 1.5;
   padding: 10%;
   color: #555353;
 }
