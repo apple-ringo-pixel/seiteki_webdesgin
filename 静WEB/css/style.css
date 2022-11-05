@@ -50,6 +50,7 @@ a {
   color: #cc079b;
   left: 20%;
   font-size: 20px;
+  padding: 10px;
 }
 
 span {
@@ -88,6 +89,7 @@ h2 {
   width: 70%;
   margin-top: 5%;
   margin-left: 20%;
+  padding: 15px;
 }
 .newslist {
   padding: 0 10%;
@@ -171,22 +173,23 @@ h2 {
 }
 .neon {
   width: 80%;
+  padding: 10px;
 }
 .ab_txt{
   width: 60%;
+  font-size: 15px;
   margin-left: 15%;
   line-height: 1.5;
+  padding: 10px;
   color: dimgray;
 }
 
 
+/* service */
 
 .ttl3 {
   margin-left: 15%;
 }
-
-
-/* service */
 
 .service {
 text-align: center;
@@ -214,10 +217,15 @@ text-align: center;
   width: 110px;
   margin: 0 auto;
 }
+.b1ttl{
+  font-weight: bold;
+  font-size: 18;
+}
 .b1txtbox{
-  margin: auto;
+  padding: 10%;
   color: white;
   line-height: 1.5;
+  font-size: 12px;
 }
 
 .box2 {
@@ -230,11 +238,18 @@ text-align: center;
   width: 120px;
   margin-left: 5%;
 }
+.b2ttl{
+  font-weight: bold;
+  font-size: 18;
+  padding: 10px;
+}
 .b2txtbox {
   text-align: left;
-  margin: 5%;
+  padding: 0 10%;
+  padding-top: 10px;
   color: white;
   line-height: 1.5;
+  font-size: 12px;
 }
 .box3 {
   display: flex;
@@ -248,9 +263,11 @@ text-align: center;
 }
 .b3txtbox{
   text-align: left;
-  margin: 5%;
+  padding: 0 10%;
+  padding-top: 10px;
   color: white;
   line-height: 1.5;
+  font-size: 12px;
 }
 h5{
   font-size: 15px;
@@ -303,12 +320,23 @@ h5{
   line-height: 1.5;
   padding: 10%;
   color: #555353;
+  font-size: 17px;
 }
 .tag {
   display: flex;
   justify-content: space-between;
-  padding: 5%;
+  padding: 3%;
+  margin: 3%;
   color: #555353;
+}
+.card_date {
+  padding: 7%;
+  font-size: 15px;
+}
+
+.card_tag{
+padding: 7%;
+font-size: 15px;
 }
 
 .ichiran {
